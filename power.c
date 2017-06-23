@@ -12,7 +12,7 @@ int main()
 
     while (p != 0)
     {
-        r=b;
+        r=r*b;
       --p;
     }
 
