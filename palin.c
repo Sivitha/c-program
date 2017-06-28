@@ -1,16 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int n, r = 0, re, o;
-
-    printf("Enter an integer: ");
-    scanf("%d", &n);
+    int a, r = 0, re, o;
+    scanf("%d", &a);
     o = n;
-       while( n!=0 )
+       while( a!=0 )
     {
-        r = n%10;
+        r = a%10;
         r = *10 + r;
-        n /= 10;
+      a /= 10;
     }
         if (o == r)
         printf("%d is a palindrome.", o);
